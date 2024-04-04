@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-       Just for Learning deployment with vercel
+       Just for Learning kanda ji
       </header>
     </div>
   );
