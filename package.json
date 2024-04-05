@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+    "build": "parcel build src/index.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
