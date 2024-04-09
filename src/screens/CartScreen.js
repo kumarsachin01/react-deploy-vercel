@@ -102,7 +102,7 @@ const CartScreen = () => {
             <button type="button" onClick={function() {
               console.log(process.env.REACT_APP_KEY)
               }}>
-              <StripeCheckout stripeKey="pk_test_51MvK60SC7ymWDRkZ5eL0u0XP9r4TpD79yuqgnoeG9ESXrjK01vUDhxU4jLzZqUDOH5fTzDizPpe6GbfYj3EZwEMY005EiinE5U"
+              <StripeCheckout stripeKey="pk_live_51N0gvlSCNRHuZczxmk6kjDKaA2KVlqu3dyO55OMqZAUPwgaAh3ZAkC0c0hA2auZbxs5v8VYJx1ZMCmfFF1NnxVax00gqXPSSBz"
                 token={makePayment} amount={getCartSubTotal() * 100 * 0.014}
                 shippingAddress
                 billingAddress
