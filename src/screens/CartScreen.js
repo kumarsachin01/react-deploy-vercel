@@ -52,7 +52,7 @@ const CartScreen = () => {
       "content-type": "application/json"
     }
 
-    return fetch(`http://localhost:5000/payment`, {
+    return fetch(`https://e-med-care.vercel.app/payment`, {
       method: "POST",
       headers: headers,
       body: JSON.stringify(body)
